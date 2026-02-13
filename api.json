@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/krasue",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "krasue",
+    "name": "Krasue",
+    "aliases": [],
+    "category": "ENTITY_VAMPIRE_GHOST",
+    "subcategory": "| Description | Context |",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The Krasue (กระสือ in Thai, also Krahang, Kasu, or Ap) represents one of the most terrifying and viscerally disturbing entities in Southeast Asian supernatural tradition—a vampiric spirit manifesting as a beautiful woman by day whose head detaches at night, trailing luminous entrails as it floats through darkness seeking blood, raw flesh, and human waste to consume.",
+      "full": "The Krasue (กระสือ in Thai, also Krahang, Kasu, or Ap) represents one of the most terrifying and viscerally disturbing entities in Southeast Asian supernatural tradition—a vampiric spirit manifesting as a beautiful woman by day whose head detaches at night, trailing luminous entrails as it floats through darkness seeking blood, raw flesh, and human waste to consume. Among the pantheon of spirits and ghosts inhabiting Thai, Lao, Khmer, and Malay folklore, the Krasue holds a position of particular dread, combining feminine beauty with grotesque body horror in ways that have captivated and horrified generations. The Krasue phenomenon appears across mainland Southeast Asia with remarkable consistency despite linguistic and cultural variations, suggesting ancient pan-regional roots predating contemporary national boundaries. The creature exists in a liminal state—human woman during daylight hours, monstrous predator during darkness—embodying anxieties about feminine power, bodily integrity, death, contamination, and the violation of natural boundaries. Traditional descriptions emphasize the Krasue's horrific appearance in its active nocturnal form: a woman's head, sometimes beautiful, sometimes decayed, floating through the night sky with trailing internal organs—heart, lungs, stomach, intestines—glowing with an eerie greenish or pale light. These organs dangle beneath the head, dripping blood and bile, as the creature searches for victims. The Krasue feeds on blood (particularly from livestock or sleeping humans), placental material (preferring pregnant women), feces, and decomposing flesh, with a particular predilection for fresh corpses and newborns. The origins of the Krasue condition vary across regional traditions but commonly involve curses, black magic practice gone wrong, karmic punishment for sins (especially gluttony or sexual transgression), or inheritance through maternal lineage. A woman afflicted with the Krasue curse leads a double existence: during the day, she appears completely normal, living among family and community, often unaware of her condition or desperately concealing it; at night, her head and organs detach from her body, leaving her torso lifeless in bed while her floating upper half prowls for sustenance. The Krasue must return to her body before dawn, reassembling herself and resuming normal human form. Traditional protective measures capitalize on this vulnerability: hiding or destroying the sleeping body, surrounding it with thorny branches that the trailing intestines cannot penetrate, or setting traps to prevent the head's return. If the Krasue cannot reunite with her body by sunrise, she dies, or in some versions, is trapped in spectral form permanently. Contemporary belief in the Krasue remains remarkably strong throughout rural Thailand, Laos, and Cambodia, with regular reported sightings, accusations of Krasue identity leading to social ostracism or violence, and continued practice of traditional protective rituals. The entity has achieved significant cultural prominence through film, television, and literature, becoming an internationally recognized icon of Southeast Asian horror while retaining genuine religious and folkloric significance in communities where belief continues. The Krasue raises profound questions about the relationship between folklore and social control, the encoding of cultural anxieties in supernatural narratives, gender dynamics in traditional Southeast Asian societies, and the persistence of pre-modern belief systems in rapidly modernizing contexts. Whether understood as psychological projection, social construct, misidentified natural phenomena, or genuine supernatural entity, the Krasue provides critical insights into Southeast Asian cosmology, cultural values, and the human capacity for creating and perpetuating deeply affecting mythological figures."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_VAMPIRE_GHOST",
+      "type": "| Description | Context |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
