@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/krasue",
     "maintainers": [
       {
@@ -16,111 +16,330 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "krasue",
     "name": "Krasue",
-    "aliases": [],
-    "category": "ENTITY_VAMPIRE_GHOST",
-    "subcategory": "| Description | Context |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Phi Krasue", "language": "Thai", "region": "Thailand", "meaning": "the Krasue ghost" },
+      { "name": "Ahp", "language": "Khmer", "region": "Cambodia", "meaning": "from Sanskrit āpyati, 'to cause to suffer'" },
+      { "name": "Kasu", "language": "Lao", "region": "Laos" },
+      { "name": "Kuyang", "language": "Indonesian", "region": "Indonesia" },
+      { "name": "Penanggal", "language": "Malay", "region": "Malaysia and Borneo" },
+      { "name": "Ma lai", "language": "Vietnamese", "region": "Vietnam" },
+      { "name": "Manananggal", "language": "Filipino", "region": "Philippines" },
+      { "name": "Leyak", "language": "Balinese", "region": "Bali, Indonesia" }
     ],
-    "status": "documented",
+    "category": "UNDEAD",
+    "subcategory": "Vampiric detached-head spirit (female)",
+    "tags": [
+      "southeast-asia",
+      "thailand",
+      "cambodia",
+      "laos",
+      "vampire",
+      "detached-head",
+      "nocturnal",
+      "female-spirit",
+      "folklore",
+      "vampiric-spirit"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Krasue (กระสือ in Thai, also Krahang, Kasu, or Ap) represents one of the most terrifying and viscerally disturbing entities in Southeast Asian supernatural tradition—a vampiric spirit manifesting as a beautiful woman by day whose head detaches at night, trailing luminous entrails as it floats through darkness seeking blood, raw flesh, and human waste to consume.",
-      "full": "The Krasue (กระสือ in Thai, also Krahang, Kasu, or Ap) represents one of the most terrifying and viscerally disturbing entities in Southeast Asian supernatural tradition—a vampiric spirit manifesting as a beautiful woman by day whose head detaches at night, trailing luminous entrails as it floats through darkness seeking blood, raw flesh, and human waste to consume. Among the pantheon of spirits and ghosts inhabiting Thai, Lao, Khmer, and Malay folklore, the Krasue holds a position of particular dread, combining feminine beauty with grotesque body horror in ways that have captivated and horrified generations. The Krasue phenomenon appears across mainland Southeast Asia with remarkable consistency despite linguistic and cultural variations, suggesting ancient pan-regional roots predating contemporary national boundaries. The creature exists in a liminal state—human woman during daylight hours, monstrous predator during darkness—embodying anxieties about feminine power, bodily integrity, death, contamination, and the violation of natural boundaries. Traditional descriptions emphasize the Krasue's horrific appearance in its active nocturnal form: a woman's head, sometimes beautiful, sometimes decayed, floating through the night sky with trailing internal organs—heart, lungs, stomach, intestines—glowing with an eerie greenish or pale light. These organs dangle beneath the head, dripping blood and bile, as the creature searches for victims. The Krasue feeds on blood (particularly from livestock or sleeping humans), placental material (preferring pregnant women), feces, and decomposing flesh, with a particular predilection for fresh corpses and newborns. The origins of the Krasue condition vary across regional traditions but commonly involve curses, black magic practice gone wrong, karmic punishment for sins (especially gluttony or sexual transgression), or inheritance through maternal lineage. A woman afflicted with the Krasue curse leads a double existence: during the day, she appears completely normal, living among family and community, often unaware of her condition or desperately concealing it; at night, her head and organs detach from her body, leaving her torso lifeless in bed while her floating upper half prowls for sustenance. The Krasue must return to her body before dawn, reassembling herself and resuming normal human form. Traditional protective measures capitalize on this vulnerability: hiding or destroying the sleeping body, surrounding it with thorny branches that the trailing intestines cannot penetrate, or setting traps to prevent the head's return. If the Krasue cannot reunite with her body by sunrise, she dies, or in some versions, is trapped in spectral form permanently. Contemporary belief in the Krasue remains remarkably strong throughout rural Thailand, Laos, and Cambodia, with regular reported sightings, accusations of Krasue identity leading to social ostracism or violence, and continued practice of traditional protective rituals. The entity has achieved significant cultural prominence through film, television, and literature, becoming an internationally recognized icon of Southeast Asian horror while retaining genuine religious and folkloric significance in communities where belief continues. The Krasue raises profound questions about the relationship between folklore and social control, the encoding of cultural anxieties in supernatural narratives, gender dynamics in traditional Southeast Asian societies, and the persistence of pre-modern belief systems in rapidly modernizing contexts. Whether understood as psychological projection, social construct, misidentified natural phenomena, or genuine supernatural entity, the Krasue provides critical insights into Southeast Asian cosmology, cultural values, and the human capacity for creating and perpetuating deeply affecting mythological figures."
+      "summary": "A female nocturnal spirit of mainland Southeast Asian folklore, manifesting as a floating disembodied woman's head from which the heart, stomach and other internal organs trail. Belief in the Krasue remains active in rural Thailand, Laos and Cambodia.",
+      "full": "The Krasue (Thai: กระสือ; Khmer: អាប, Ahp; Lao: Kasu) is a female spirit of mainland Southeast Asian folklore. By day she lives as an ordinary woman; at night her head detaches from her body and floats free, the heart, stomach and a length of intestine still attached and dangling beneath. In this form she hunts for blood and raw flesh, often preying on livestock or on pregnant women and newborns, and is associated with luminous lights seen drifting across rice fields. The headless body must be hidden during the night and the head must rejoin it before sunrise; if the body is destroyed or hidden too well, the Krasue will die. Belief in the Krasue remains widespread in rural Thailand, Laos and Cambodia. The figure belongs to a wider Southeast Asian complex of detached-head female spirits that includes the Khmer Ahp, Lao Kasu, Malay Penanggal, Indonesian Kuyang and Balinese Leyak, and Filipino Manananggal."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Thai กระสือ (krasue). The Khmer cognate Ahp is traditionally derived from Sanskrit आप्यति (āpyati), meaning 'to cause anyone to suffer'.",
+      "meaning": "The vernacular Thai name has no fixed lexical meaning beyond identifying the spirit; in usage 'krasue' is now generic for this category of detached-head ghost.",
+      "first_use": "Documented in Thai and Khmer folklore long before modern attestation; first systematic English-language description in late 19th- and early 20th-century colonial ethnographies of Southeast Asia."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_VAMPIRE_GHOST",
-      "type": "| Description | Context |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UNDEAD",
+      "type": "Vampiric spirit",
+      "subtype": "Detached-head ghost",
+      "variant": "Mainland Southeast Asian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "penanggalan", "name": "Penanggalan", "relationship": "regional_variant", "description": "Malay detached-head female vampire" },
+      { "id": "leyak", "name": "Leyak", "relationship": "regional_variant", "description": "Balinese practitioner of black magic with a detached flying head" },
+      { "id": "manananggal", "name": "Manananggal", "relationship": "similar", "description": "Philippine winged vampire that severs at the waist" },
+      { "id": "langsuir", "name": "Langsuir", "relationship": "similar", "description": "Malay female revenant of women who died in childbirth" },
+      { "id": "nukekubi", "name": "Nukekubi", "relationship": "similar", "description": "Japanese detached-head yōkai" },
+      { "id": "rokurokubi", "name": "Rokurokubi", "relationship": "similar", "description": "Japanese yōkai whose neck stretches at night" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["pale woman's face", "luminous greenish or reddish glow around organs", "blood-red trailing entrails"],
+      "features": [
+        { "feature": "Detached female head", "description": "Head of a woman, often described as young and beautiful, separated from the body and floating above the ground", "frequency": "always" },
+        { "feature": "Trailing internal organs", "description": "Heart, stomach and a length of intestine hang from the neck; some accounts add lungs and liver", "frequency": "always" },
+        { "feature": "Luminescence", "description": "The head and entrails are described as glowing, often reddish or greenish, and are associated with strange lights seen at night in fields", "frequency": "common" },
+        { "feature": "Long fangs", "description": "Modern depictions add pointed fangs and a long tongue used for feeding", "frequency": "common" },
+        { "feature": "Day form indistinguishable from a normal woman", "description": "By daylight the cursed individual appears completely human and lives in the community, sometimes unaware of her own condition", "frequency": "always" }
+      ],
+      "morphology": "The Krasue is a hybrid 'living-ghost' rather than a true revenant: a living woman whose head and viscera detach at night and reattach at dawn. The torso remains inert and hidden during the nocturnal flight."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Flight without lower body", "description": "The head and dangling organs hover and move through the air at night", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Blood and flesh feeding", "description": "Drinks blood (notably from livestock such as water buffalo and chickens) and consumes raw flesh, carrion, placenta and excrement", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Predation on pregnant women and newborns", "description": "Particularly associated with attacks on pregnant women and infants; placenta is a sought-after food", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Curse transmission", "description": "Cambodian Ahp tradition holds that the curse must be passed to another woman (often a daughter or relative, sometimes via shared food or saliva) for the carrier to escape future rebirth as the same spirit", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural villages", "rice paddies", "forest edges", "livestock pens", "graveyards"],
+      "diet": "Blood, raw flesh, carrion, placenta, feces; livestock blood (water buffalo, chickens) when human prey is unavailable",
+      "patterns": [
+        "Active only between dusk and dawn",
+        "Must rejoin headless body before sunrise or die",
+        "Vulnerable to thorns and spikes that snag the trailing entrails",
+        "Drawn to pregnant women, newborns and fresh corpses",
+        "Associated with strange floating lights in rice fields"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Belief in the Krasue and its cognates spans mainland Southeast Asia and the Malay Archipelago, with the strongest contemporary tradition in rural Thailand, Laos and Cambodia. Closely related figures are reported throughout Malaysia, Indonesia (including Bali), the Philippines and parts of Vietnam.",
+      "continents": ["Asia"],
+      "countries": ["Thailand", "Cambodia", "Laos", "Malaysia", "Indonesia", "Philippines", "Vietnam"],
+      "regions": [
+        "Isan (northeastern Thailand)",
+        "Central Thailand",
+        "Northern Thailand",
+        "Cambodia",
+        "Laos",
+        "Malay Peninsula",
+        "Java and Bali",
+        "Philippine archipelago"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Isan (northeastern Thailand)",
+        "location": {
+          "description": "Rural Isan provinces, where Krasue belief and reported sightings remain strong",
+          "country": "Thailand",
+          "region": "Isan"
+        },
+        "peak_period": "ongoing",
+        "notes": "Rural Isan is the heartland of contemporary Krasue belief, with periodic local panics over reported sightings."
+      },
+      {
+        "name": "Cambodia (Ahp tradition)",
+        "location": {
+          "description": "Rural villages across Cambodia",
+          "country": "Cambodia",
+          "region": "nationwide"
+        },
+        "peak_period": "ongoing",
+        "notes": "Cambodian Ahp belief frames the spirit as a hereditary curse that must be passed on; protective practices around childbirth (notably regarding the placenta) are widespread."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Mainland Southeast Asian oral tradition; described in 19th- and early-20th-century colonial-era ethnographic literature on the region."
+      },
+      "peak_activity_periods": [
+        { "period": "Traditional / pre-modern", "description": "Embedded in folk Buddhist and animist belief throughout mainland Southeast Asia." },
+        { "period": "1970s–present", "description": "Sustained presence as a horror-film and television icon, especially in Thai and Cambodian cinema, while remaining a live folk belief in rural communities." }
+      ],
+      "seasonal_patterns": "Reported sightings cluster around hot dry-season nights when strange lights are visible across paddy fields."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Rooted in the animist substrate of mainland Southeast Asian religion, layered with Theravada Buddhist concepts of karmic punishment. The Krasue is widely understood as a person cursed for a serious moral or magical transgression in this or a previous life.",
+      "earliest_accounts": "Oral tradition predating reliable written record; described in 19th- and early-20th-century European colonial ethnographies of Southeast Asia, and in vernacular Thai, Khmer and Lao literature.",
+      "folklore_connections": "Part of a broader Southeast Asian complex of female blood-drinking spirits — Penanggal (Malay), Leyak (Balinese), Manananggal (Filipino), Langsuir (Malay) — sharing the motif of a woman whose body or head separates at night to feed."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-modern", "event": "Krasue/Ahp/Kasu belief established across mainland Southeast Asia as part of folk religion", "significance": "Cultural baseline", "source": "Oral tradition" },
+      { "date": "1973", "event": "Thai film 'Krasue Sao' released, establishing Krasue as a mainstay of Thai horror cinema", "significance": "Beginning of the modern Thai-cinematic Krasue", "source": "Wikipedia: Krasue" },
+      { "date": "2002", "event": "Thai film 'Demonic Beauty' (Krasue) released, treating the Krasue legend through a romantic-horror frame", "significance": "Mainstream regional revival of the figure", "source": "Wikipedia: Krasue" },
+      { "date": "2008-08", "event": "CCTV footage from a lemon-juice factory in Pathum Thani Province, Thailand, was widely reported as depicting a Krasue", "significance": "High-profile modern 'sighting' that received national news coverage; an imaging analyst suggested an explanation involving light reflection", "source": "Wikipedia: Krasue" },
+      { "date": "2014-06", "event": "Hundreds of teenagers in Ayutthaya Province, Thailand, gathered to watch red lights moving over rice fields, attributed locally to a Krasue", "significance": "Crowd-scale modern Krasue panic; landowner attributed the lights to bird-scaring lanterns", "source": "Wikipedia: Krasue" },
+      { "date": "2019", "event": "Thai romantic-horror film 'Inhuman Kiss' (Sang Krasue) released, gaining international attention as Thailand's submission for the Academy Awards Best International Feature consideration", "significance": "Most internationally visible recent Krasue production", "source": "Wikipedia: Krasue" }
+    ],
+    "modern_era": "Krasue belief remains widespread in rural Thailand, Laos and Cambodia, with periodic local panics over strange lights or accusations of Krasue identity. The figure is a recurring icon of Thai horror cinema and television, and has crossed over into pan-Asian and Western horror media (e.g. anthology episodes on streaming services and inclusion as a playable character in the 2025 update of the video game 'Dead by Daylight')."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "pre-modern", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "krasue-sighting-2008-pathum-thani",
+        "name": "Pathum Thani factory CCTV footage",
+        "date": { "value": "2008-08-01", "precision": "approximate" },
+        "location": {
+          "description": "Lemon-juice factory in Pathum Thani Province",
+          "country": "Thailand",
+          "region": "Pathum Thani Province"
+        },
+        "witnesses": { "count": 0, "types": ["Factory CCTV system"], "credibility_factors": ["Continuous video record", "Widely reported in Thai media"] },
+        "description": "Closed-circuit camera footage from a lemon-juice factory in Pathum Thani Province appeared to show a luminous floating object resembling a Krasue. The clip received heavy national coverage. A visual-imaging specialist consulted by Thai media suggested the appearance was best explained by light reflection rather than a paranormal entity.",
+        "credibility": { "rating": "low", "factors": ["No physical evidence", "Plausible imaging-artefact explanation"], "notes": "Most-cited modern Krasue 'sighting' in Thai media." },
+        "sources": ["Wikipedia: Krasue"],
+        "featured": true
+      },
+      {
+        "id": "krasue-sighting-2014-ayutthaya",
+        "name": "Ayutthaya rice-field lights",
+        "date": { "value": "2014-06-01", "precision": "approximate" },
+        "location": {
+          "description": "Rice fields in Ayutthaya Province",
+          "country": "Thailand",
+          "region": "Ayutthaya Province"
+        },
+        "witnesses": { "count": 200, "types": ["Local teenagers and onlookers"], "credibility_factors": ["Large crowd of witnesses to ambient light phenomenon"] },
+        "description": "Hundreds of teenagers gathered to watch unexplained red lights moving over rice fields in Ayutthaya Province. The phenomenon was widely attributed to a Krasue. The owner of the land said the lights were floating lanterns used to scare birds away from the crop.",
+        "credibility": { "rating": "low", "factors": ["Mundane explanation offered by landowner", "No close-range observation"], "notes": "Illustrative of how unexplained lights are folded into the active Krasue belief system." },
+        "sources": ["Wikipedia: Krasue"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "krasue-evidence-2008-cctv",
+        "type": "video still",
+        "name": "Pathum Thani factory CCTV still",
+        "date": "2008-08",
+        "description": "Frame from Thai factory CCTV footage interpreted as a Krasue.",
+        "location": "Pathum Thani Province, Thailand",
+        "status": "disputed",
+        "analysis": "Visual-imaging specialist consulted by Thai media argued the footage was consistent with a light-reflection artefact.",
+        "source": "Wikipedia: Krasue"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Cursed-woman tradition",
+        "description": "The Krasue is a real woman under a karmic or magical curse — typically for sins committed in a past life, for the practice of black magic that went wrong, or as inherited from a maternal lineage — whose head and viscera detach at night.",
+        "proponents": ["Thai folk Buddhist tradition", "Cambodian Ahp tradition"],
+        "evidence_cited": ["Continuity of belief across mainland Southeast Asia", "Documented protective rituals around childbirth"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Methane / wetland luminescence hypothesis",
+        "description": "Strange lights reported as Krasue sightings are produced by ignition of methane and other gases released from decomposing organic matter in tropical wetlands and rice fields.",
+        "proponents": ["Various Thai science writers"],
+        "evidence_cited": ["Known production of swamp-gas luminescence in wet tropical environments", "Reports of Krasue lights specifically in paddy fields"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Critique of the methane explanation",
+        "description": "Associate Professor Dr. Sirintornthep Towprayoon of King Mongkut's University of Technology Thonburi has publicly disputed the methane hypothesis, arguing that methane production over Thai farmland is insufficient for self-ignition and that surface combustion would not produce a freely floating, mobile light.",
+        "proponents": ["Sirintornthep Towprayoon (KMUTT)"],
+        "evidence_cited": ["Methane-emission measurements in Thai paddy ecosystems"]
+      },
+      {
+        "name": "Cultural transmission and misidentification",
+        "description": "Modern Krasue 'sightings' are explained by a combination of culturally primed misperception, mundane lights (lanterns, vehicle reflections, fireflies, swamp luminescence) and CCTV/camera artefacts in a population in which the figure remains a live cultural reference.",
+        "proponents": ["Sceptical journalists in Thai media"],
+        "evidence_cited": ["Bird-scaring lanterns identified in the 2014 Ayutthaya panic", "Light-reflection analysis offered for the 2008 Pathum Thani CCTV clip"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Thai folk Buddhist tradition of the krasue as karmic punishment",
+        "Cambodian Ahp tradition of inherited curse and required curse-transmission",
+        "Lao Kasu tradition"
+      ],
+      "stories": [
+        "Folk story of a Khmer princess cursed into Krasue form (popularised by Thai cinema)",
+        "Village accounts of women accused of being Krasue in rural Thailand and Cambodia"
+      ],
+      "beliefs": "The Krasue is widely understood as a curse on a living woman rather than a free-floating ghost. Protective practices include surrounding sleeping people with thorny branches that the entrails cannot pass; hiding or destroying the headless body during the night; in Cambodia, burying the placenta of a newborn far from the home so an Ahp cannot reach it."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "film_tv": [
+        "Krasue Sao (Thailand, 1973)",
+        "Witch with the Flying Head (Hong Kong, 1977)",
+        "Mystics in Bali (Indonesia, 1981)",
+        "Demonic Beauty / Krasue (Thailand, 2002)",
+        "Krasue Valentine (Thailand, 2006)",
+        "Inhuman Kiss / Sang Krasue (Thailand, 2019)",
+        "Inhuman Kiss: The Last Breath (Thailand, 2023)",
+        "Creepshow Season 3, 'The Last Tsuburaya' (USA, 2021)"
+      ],
+      "games": [
+        "Eyes: The Horror Game (2013)",
+        "Dead by Daylight (Krasue-themed killer added 2025)"
+      ],
+      "music": [],
+      "other": [
+        "Recurring icon of Thai horror tourism and ghost-story media",
+        "Used colloquially in Thai expressions: 'eating like a Krasue' (gluttony)"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No formal scientific research programme exists; the Krasue is studied chiefly by anthropologists and folklorists working on Southeast Asian belief systems."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-krasue",
+      "type": "website",
+      "title": "Krasue",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Krasue",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-leyak",
+      "type": "website",
+      "title": "Leyak",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leyak",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-langsuyar",
+      "type": "website",
+      "title": "Langsuyar",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Langsuyar",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
